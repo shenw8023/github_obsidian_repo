@@ -1,0 +1,3 @@
+- 据chatGPT说，GPT2训练的时候使用了tie_weights的方式，将input embeddings和output layer进行参数共享 shared weight matrix，用于减少参数量，提高效果。
+- 据说该方法最早起源于 Attention is all you need
+- 

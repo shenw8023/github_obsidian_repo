@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DDP.md",
+                "file": "daily_note/2023-04-25.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04a001fa377c6cbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tie_weights().md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DDP.md",
+                "file": "tie_weights().md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DDP.md",
+                "file": "tie_weights().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DDP.md"
+                "file": "tie_weights().md"
               }
             }
           },
@@ -167,9 +179,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e72f0264bb0651e0",
+  "active": "e4e79095927f1800",
   "lastOpenFiles": [
+    "代码/sw_conclude_gptlm.py",
+    "代码/sw_conclude_gpt2.py",
+    "代码",
+    "新建文件夹",
+    "sw_conclude_gptlm.py",
+    "sw_conclude_gpt2.py",
+    "accelerate.md",
     "daily_note/2023-04-25.md",
+    "tie_weights().md",
     "DDP.md",
     "TencentPretrain.md",
     "RedPajama 计划，(完整训练流程全开源).md",
@@ -197,20 +217,15 @@
     "moss数据集样例/calculator_plugin_conversation",
     "moss数据集样例",
     "daily_note/2023-04-23.md",
-    "daily_note/2023-04-21.md",
     "picture/Pasted image 20230420213502.png",
     "picture/Pasted image 20230420193330.png",
-    "aa.md",
     "picture/Pasted image 20230420213754.png",
     "picture/Pasted image 20230420204824.png",
     "picture/Pasted image 20230420194256.png",
     "picture/Pasted image 20230420194232.png",
     "picture/Pasted image 20230420193351.png",
-    "survey.md",
     "picture/Pasted image 20230419210239.png",
     "picture",
-    "picture/Pasted image 20230419210226.png",
-    "paper",
-    "daily_note"
+    "picture/Pasted image 20230419210226.png"
   ]
 }
