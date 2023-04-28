@@ -8,14 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c2465d45d6b6d053",
+            "id": "d797a4dc00d6685d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "daily_note/2023-04-25.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e72f0264bb0651e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DDP.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,8 +98,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "DDP.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DDP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DDP.md"
+              }
             }
           },
           {
@@ -146,10 +167,50 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c2465d45d6b6d053",
+  "active": "e72f0264bb0651e0",
   "lastOpenFiles": [
-    "daily_note/2023-04-19.md",
-    "fas fds.md",
+    "daily_note/2023-04-25.md",
+    "DDP.md",
+    "TencentPretrain.md",
+    "RedPajama 计划，(完整训练流程全开源).md",
+    "huggingface Trainer.md",
+    "MOSS.md",
+    "huggingface LM train scripts.md",
+    "GPT2LMHeadModel.md",
+    "微软 deepspeed Chat 框架测试.md",
+    "picture/c424bd1ca438bd8e8e159a0d1ff837ae.png",
+    "paper/survey.md",
+    "paper/self-instruct.md",
+    "paper/Intent cls and slot filling.md",
+    "daily_note/2023-04-24.md",
+    "moss_SFT 数据集样例/conversation_with_plugin.md",
+    "moss_SFT 数据集样例/conversation_without_plugin.md",
+    "moss_SFT 数据集样例",
+    "moss数据集样例/conversation_without_plugin.md",
+    "moss数据集样例/conversation_with_plugin.md",
+    "moss数据集样例/onversation_with_plugin.md",
+    "moss数据集样例/calculator_plugin_conversation.md",
+    "ss.ipynb",
+    "moss数据集样例/aa.md",
+    "moss数据集样例/equation_solver(方程求解).md",
+    "moss数据集样例/equation_solver.md",
+    "moss数据集样例/calculator_plugin_conversation",
+    "moss数据集样例",
+    "daily_note/2023-04-23.md",
+    "daily_note/2023-04-21.md",
+    "picture/Pasted image 20230420213502.png",
+    "picture/Pasted image 20230420193330.png",
+    "aa.md",
+    "picture/Pasted image 20230420213754.png",
+    "picture/Pasted image 20230420204824.png",
+    "picture/Pasted image 20230420194256.png",
+    "picture/Pasted image 20230420194232.png",
+    "picture/Pasted image 20230420193351.png",
+    "survey.md",
+    "picture/Pasted image 20230419210239.png",
+    "picture",
+    "picture/Pasted image 20230419210226.png",
+    "paper",
     "daily_note"
   ]
 }

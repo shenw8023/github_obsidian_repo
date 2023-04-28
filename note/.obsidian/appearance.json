@@ -3,5 +3,6 @@
   "cssTheme": "Obuntu",
   "theme": "moonstone",
   "interfaceFontFamily": "",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "baseFontSize": 19
 }
