@@ -1,0 +1,7 @@
+- In this paper, we propose prompt tuning as a further simplification for adapting language models. 
+	- We freeze the entire pre-trained model and only allow an additional k tunable tokens per downstream task to be prepended to the input text. This “soft prompt” is trained end-to-end and can condense the signal from a full labeled dataset, allowing our method to <mark style="background: #FFB8EBA6;">outperform few-shot prompts and close the quality gap with model tuning</mark>
+- 还有一个工程上的优势：
+	- 全量微调要求每个下游任务部署一个大模型，而论文的方式只需要将不用的prompt拼接到不同的任务输入前面，构建一个mixed_task_batch，然后送到一个LLM做计算，可以在一次batch推理中做不同下游任务的计算
+- 模型参数越大，fine-tuning和promt-tuning在下游任务的差距越小，10B的参数量，两者持平
+- 显式将任务特定参数从模型通用能力参数中分离出来，有很多额外的好处，对领域迁移有更好的弹性
+- <mark style="background: #FF5582A6;">learning multiple prompts for the same task</mark>, can boost quality and is more effificient than classic model ensembling.

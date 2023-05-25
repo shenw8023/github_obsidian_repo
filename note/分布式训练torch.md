@@ -1,0 +1,1 @@
+- 在 pytorch 1.0 之后，官方终于对分布式的常用方法进行了封装，支持 all-reduce，broadcast，send 和 receive 等等。通过 <mark style="background: #FF5582A6;">MPI 实现 CPU 通信，通过 NCCL 实现 GPU 通信</mark>。官方也曾经提到用 DistributedDataParallel 解决 DataParallel 速度慢，GPU 负载不均衡的问题

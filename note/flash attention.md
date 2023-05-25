@@ -1,0 +1,4 @@
+- 通过缓存一些中间量，减少大量的矩阵在GPU的高速memory和低速memory之间的IO次数
+- 每次需要中间矩阵的时候，我可以用存的中间变量重新计算还原，虽然存在重复计算，但是整体耗时依然会减少，因为这里的瓶颈在IO
+- 思路还是使用时间换空间，但是这里牺牲的时间相对于IO时间来说是赚的，毕竟GPU计算能力太强。宁可多做几次计算，也要减少IO
+- In contrast, even with more FLOPs, our recomputation speeds up the backward pass due to reduced HBM accesses

@@ -1,7 +1,7 @@
 
 ## 可重写
 - **create_optimizer** — Sets up the optimizer if it wasn’t passed at init.
--   **create_scheduler** — Sets up the learning rate scheduler if it wasn’t passed at init.
+- **create_scheduler** — Sets up the learning rate scheduler if it wasn’t passed at init.
 -   **compute_loss** - Computes the loss on a batch of training inputs.
 -   **training_step** — Performs a training step.
 -   **prediction_step** — Performs an evaluation/test step.
