@@ -1,10 +1,10 @@
 ## Introduction 
 
 - Joint Extraction of Entities and Relations Based on a Novel Decomposition Strategy
-
 - 传统的pipeline方式extract-then-classify，忽略了两个子任务之间的关联信息，分类器会受限于大量的负例entity_pairs。
 - 具体方式总结：
-		- we first decompose the joint extraction task into two interrelated subtasks, namely<mark style="background: #FF5582A6;"> HE extraction</mark> and <mark style="background: #FF5582A6;">TER extraction</mark>.The former subtask is to distinguish all head-entities that may be involved with target relations, and the latter is to identify corresponding tail-entities and relations simultaneously for each extracted head-entity.
+	- we first decompose the joint extraction task into two interrelated subtasks, namely<mark style="background: #FF5582A6;"> HE extraction</mark> and <mark style="background: #FF5582A6;">TER extraction</mark>.The former subtask is to distinguish all head-entities that may be involved with target relations, and the latter is to identify corresponding tail-entities and relations simultaneously for each extracted head-entity.
+	- <mark style="background: #FF5582A6;">2+2m个序列标注任务</mark>，m为识别出的head_entity数量
 - 理论依据：
 	- <mark style="background: #FF5582A6;">extract-then-label(ETL)</mark> paradigm can be understood by decomposing the joint probability of triplet extraction into conditional probability：
 	- $$p(h,r,t|S) = p(h|S)p(r,t|h,S)$$
@@ -42,8 +42,8 @@
 
 
 
-## 网络结构总结
-- 整体来看，做了两次分解任务
+## 网络结构
+- 整体来看，做了两次分解任务，<mark style="background: #FF5582A6;">级联的方式</mark>抽取
 	- <mark style="background: #FF5582A6;">HE + TER：</mark>先抽head-entity，然后利用head-entity信息同时抽出tail-entity 以及 relation-type
 		- $p(h,r,t|S) = p(h|S)p(r,t|h,S)$
 		- ![[Pasted image 20230525214757.png]]
@@ -64,3 +64,9 @@
 	- <mark style="background: #FF5582A6;">LOSS：</mark>
 		- ![[Pasted image 20230525215235.png]]
 		- 本质就是<mark style="background: #FFB8EBA6;">序列标注的交叉熵</mark>，对每个token，它的真实tag分布为[1,0,0,0]，他的预测分布为[0.9,0.1,0.2,0.1]，交叉熵就是$1*log(0.9)$，也就是只看这个token的真实tag的预测概率的对数；这里的sta和end上标分别表示在start序列中和end序列中计算。
+
+	- 序列标注细节：
+		- [B,S,H] -> [B, S, num_tags+1] -><mark style="background: #FF5582A6;">softmax</mark> -> token属于不同tag的概率和为1，因此取的是最大概率的tag
+		- 论文中对subject和object都使用CrossEntropyLoss
+
+

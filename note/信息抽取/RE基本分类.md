@@ -3,11 +3,11 @@
 - Pipeline方法：
 	- 拆分为两个子任务：实体识别和关系分类
 		- 先抽取所有实体，再对实体对进行关系分类，两个任务依次执行，之间没有交互。
+		
 - 联合模型：
 	- 两个子任务之间实现信息交互，提升效果
 	- 基于参数共享：
 		- 解码时spo三元组不是一起出来的，过程和pipeline类似，分步完成；区别是参数共享loss是各个子过程的loss之和，反向传播更新参数的时候会更新所有子过程的参数，而pipeline方法各子任务之间没有联系
-		
 	- 基于联合解码：
 		- 解码时spo三元组是一起出来的，更符合联合的思想
 		
@@ -38,6 +38,8 @@
 			- ![[Pasted image 20230525105907.png]]
 	
 - 优缺点对比：
+	- <mark style="background: #FFB8EBA6;">pipeline方式</mark>：
+		- 缺点：错误传播，忽略了子任务之间的联系
 	- 参数共享
 		- 优点：1.实体识别和关系分类过程不是同步的，所以后面步骤的训练可以使用前面步骤的结果作为特征，2.<mark style="background: #FF5582A6;">灵活性更高</mark>，能够更好的处理重叠实体关系<mark style="background: #FF5582A6;">重叠问题</mark>。	
 		- 缺点：实体识别和关系分类仍然是两个独立的过程，没有真正的“联合”。
@@ -70,13 +72,28 @@
 
 
 
-
-- 重叠问题：
-	- 没有重叠的Normal类型，关系重叠的EPO类型，实体重叠的SEO类型。
+## 重叠问题
+- 没有重叠的Normal类型，关系重叠的entity-pair-overlap（subject和object同时被两个关系使用）类型，实体重叠的single-entity-overlap（单个实体被重复使用）类型。
 	- ![[Pasted image 20230525110352.png]]
 	
 
 
 
+## 评估方式
+- 一般一个完全准确的三元组才视为一个正确预测
+- 对标准三元组和预测三元组，计算precision, recall, f1
+- 参考bert4torch的代码
+- 
+
+
+## Benchmark
+- WebNLG https://paperswithcode.com/sota/relation-extraction-on-webnlg
+- 
+
+
+
 ## 主要SOTA模型
 
+- [[ETL-Span]]
+- [[CasRel]]
+- 

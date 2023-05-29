@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "信息抽取/ETL-Span.md",
+                "file": "信息抽取/RE基本分类.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c2da72f1de1e525f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily_note/2023-05-29.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6f2fabc33ac14e1d",
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "信息抽取/ETL-Span.md",
+                "file": "daily_note/2023-05-29.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -111,9 +123,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "信息抽取/ETL-Span.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "daily_note/2023-05-29.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "信息抽取/ETL-Span.md"
+                "file": "daily_note/2023-05-29.md"
               }
             }
           },
@@ -146,8 +158,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -164,21 +175,27 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e97ef74c05c99cfa",
+  "active": "c2da72f1de1e525f",
   "lastOpenFiles": [
+    "信息抽取/su.md",
+    "daily_note/2023-05-29.md",
+    "未命名.md",
+    "信息抽取/RE基本分类.md",
+    "信息抽取/CasRel.md",
+    "Pasted image 20230526155028.png",
+    "信息抽取/ETL-Span.md",
+    "Pasted image 20230526151241.png",
+    "Pasted image 20230526150927.png",
+    "Pasted image 20230526145932.png",
+    "Pasted image 20230526144505.png",
+    "Pasted image 20230526143124.png",
+    "picture/Pasted image 20230525104737.png",
+    "信息抽取/Pointer Network.md",
+    "信息抽取/主要SOTA模型.md",
     "Pasted image 20230525215235.png",
     "Pasted image 20230525215224.png",
     "Pasted image 20230525214910.png",
-    "Pasted image 20230525214853.png",
-    "Pasted image 20230525214757.png",
-    "Pasted image 20230525214558.png",
-    "Pasted image 20230525213816.png",
-    "Pasted image 20230525204025.png",
-    "信息抽取/Pointer Network.md",
-    "信息抽取/ETL-Span.md",
-    "信息抽取/主要SOTA模型.md",
     "daily_note/2023-05-25.md",
-    "信息抽取/RE基本分类.md",
     "代码/sw_torch_use.md",
     "模型量化.md",
     "ZeRO.md",
@@ -190,20 +207,14 @@
     "prompt相关",
     "LLaMA.md",
     "LLM要点.md",
-    "picture/Pasted image 20230525185310.png",
-    "picture/Pasted image 20230525185245.png",
     "daily_note/2023-05-19.md",
     "信息抽取",
     "DDP.md",
-    "picture/Pasted image 20230525104737.png",
     "Pasted image 20230525104611.png.md",
     "daily_note/2023-04-21.md",
     "daily_note/2023-04-19.md",
     "daily_note/2023-04-23.md",
     "daily_note/2023-04-24.md",
-    "daily_note/2023-04-25.md",
-    "daily_note/2023-05-09.md",
-    "CLM_train.md",
     "代码/clm_train_relate.py",
     "一文搞懂几种LLM的高效微调方式.pdf",
     "代码/sw_tokenizer_conclude.py",
