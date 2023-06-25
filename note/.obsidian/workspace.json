@@ -4,35 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "8444bad5fe448e92",
+        "id": "f4772f70cf0e2271",
         "type": "tabs",
         "children": [
           {
-            "id": "e97ef74c05c99cfa",
+            "id": "906e064544f8648c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "信息抽取/RE基本分类.md",
+                "file": "主动学习/Dataset Cartography.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c2da72f1de1e525f",
+            "id": "7755b4cfa10bee64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily_note/2023-05-29.md",
+                "file": "对比学习/对比学习.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6f2fabc33ac14e1d",
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily_note/2023-05-29.md",
+                "file": "主动学习/Dataset Cartography.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily_note/2023-05-29.md",
+                "file": "主动学习/Dataset Cartography.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily_note/2023-05-29.md"
+                "file": "主动学习/Dataset Cartography.md"
               }
             }
           },
@@ -175,53 +175,52 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c2da72f1de1e525f",
+  "active": "906e064544f8648c",
   "lastOpenFiles": [
-    "信息抽取/su.md",
-    "daily_note/2023-05-29.md",
-    "未命名.md",
+    "主动学习/数据质检.md",
+    "主动学习/Dataset Cartography.md",
+    "DeepLearning/范数，正则化，weight decay.md",
     "信息抽取/RE基本分类.md",
-    "信息抽取/CasRel.md",
-    "Pasted image 20230526155028.png",
-    "信息抽取/ETL-Span.md",
-    "Pasted image 20230526151241.png",
-    "Pasted image 20230526150927.png",
-    "Pasted image 20230526145932.png",
-    "Pasted image 20230526144505.png",
-    "Pasted image 20230526143124.png",
-    "picture/Pasted image 20230525104737.png",
-    "信息抽取/Pointer Network.md",
-    "信息抽取/主要SOTA模型.md",
-    "Pasted image 20230525215235.png",
-    "Pasted image 20230525215224.png",
-    "Pasted image 20230525214910.png",
-    "daily_note/2023-05-25.md",
-    "代码/sw_torch_use.md",
-    "模型量化.md",
-    "ZeRO.md",
-    "prompt相关/prompt学习一些思路.md",
-    "prompt相关/prompt tuning.md",
-    "prompt相关/prefix tuning.md",
+    "对比学习/对比学习.md",
+    "Pasted image 20230621145012.png",
+    "Pasted image 20230621143721.png",
+    "Pasted image 20230621141633.png",
+    "Pasted image 20230621141608.png",
+    "Pasted image 20230621141116.png",
+    "对比学习/Loss.md",
+    "DeepLearning",
+    "对比学习/表征学习.md",
+    "对比学习.md",
+    "picture/5f6362fb80206f56ccb200ca7e2ed0f7.png",
+    "picture/1bd96442854790a20e0834297e304749.png",
+    "picture/Pasted image 20230620212506.png",
+    "picture/Pasted image 20230614161832.png",
+    "picture/Pasted image 20230619185259.png",
+    "对比学习/未命名.md",
+    "代码/总结.md",
+    "主动学习",
+    "LLM/记录.md",
+    "work总结/clu.md",
+    "work总结/loss波动的原因.md",
+    "work总结/work.md",
+    "work总结/训练tricks.md",
     "prompt相关/P-tuning.md",
-    "LLAM train.md",
-    "prompt相关",
-    "LLaMA.md",
-    "LLM要点.md",
-    "daily_note/2023-05-19.md",
-    "信息抽取",
-    "DDP.md",
-    "Pasted image 20230525104611.png.md",
-    "daily_note/2023-04-21.md",
-    "daily_note/2023-04-19.md",
-    "daily_note/2023-04-23.md",
-    "daily_note/2023-04-24.md",
-    "代码/clm_train_relate.py",
-    "一文搞懂几种LLM的高效微调方式.pdf",
-    "代码/sw_tokenizer_conclude.py",
-    "代码/sw_test.ipynb",
-    "代码/sw_template.py",
-    "代码/sw_modeling_bert.py",
-    "代码/sw_10_25_conclude.py",
-    "代码/sw_conclude_gptlm.py"
+    "LLM应用.md",
+    "对比学习",
+    "LoRA.md",
+    "moss_SFT 数据集样例/conversation_with_plugin.md",
+    "daily_note/2023-06-01.md",
+    "daily_note/2023-05-25.md",
+    "prompt相关/prefix tuning.md",
+    "2bab5793c4ed48a19c02fe8e2fa43db6.pdf",
+    "200532d75d3f44b08696f1f8173a29f6/ed1d324e837942b9b66a76a60dac838c.pdf",
+    "200532d75d3f44b08696f1f8173a29f6",
+    "focal loss.md",
+    "prompt相关/prompt tuning.md",
+    "prompt相关/prompt学习一些思路.md",
+    "biao分享/b8db0ac19f87465dab9917e5143ac1e8.pdf",
+    "biao分享/01be10f8b0074ff2a89e602293654a7d/0650afc2b9104c508fc737a4d2ae73ed.pdf",
+    "biao分享/01be10f8b0074ff2a89e602293654a7d",
+    "biao分享/03 策略梯度.pdf"
   ]
 }

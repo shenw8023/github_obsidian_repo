@@ -19,7 +19,7 @@
 		- 
 	- step3_rlhf_finetuning
 		- 修改脚本指定相关模型：`training_scripts/single_gpu/run_gpt2.sh`
-		- <mark style="background: #FF5582A6;">没有成功</mark>，错误：`RuntimeError: CUDA error: misaligned address` 可能是deepspeed框架问题
+		- <mark style="background: #FF5582A6;">没有成功</mark>，错误：`RuntimeError: CUDA error: misaligned address` 
 - 微调代码：
 ```python
  for step, batch in enumerate(train_dataloader):
