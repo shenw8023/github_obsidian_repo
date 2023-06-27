@@ -1,3 +1,5 @@
+![[Pasted image 20230626204954.png]]
+
 - <mark style="background: #FFB8EBA6;">论文：GPT understands too</mark>
 - <mark style="background: #FFB8EBA6;">可同时应用于NLG和NLU任务</mark>
 - we show that GPTs can be better than or comparable to<mark style="background: #FFB8EBA6;"> similar-sized BERTs on NLU tasks</mark> with a novel method P-tuning
@@ -5,12 +7,17 @@
 - P-tuning also improves BERTs’ performance in both few-shot and supervised settings while largely reducing the need for prompt engineering.
 - P-tuning– to automatically search prompts in the continuous space to bridge the gap between GPTs and NLU applications.
 - It also suggests that language models contain much more world knowledge and prior task knowledge than we previously assumed.
- - <mark style="background: #FF5582A6;">P-Tuning 只在 embedding 层增加参数，而 Prefix-Tuning 在每一层都添加可训练参数 。</mark>
+- <mark style="background: #FFB8EBA6;">和prefix-tuning主要区别：</mark>
+	 - Prefix-tuning仅针对NLG任务生效，服务于GPT架构；P-tuning考虑所有类型的语言模型
+	- Prefix-tuning限定了在输入前面添加，P-tuning则可以在<mark style="background: #FFB8EBA6;">任意位置添加</mark>
+	- Prefix-tuning为了保证效果在每一层都添加，但**p-tuning只在输入层（embedding层）添加**
+ - <mark style="background: #FFB8EBA6;">结果：</mark>
+	 - GPT-style的生成模型在NLU任务上持平BERT，甚至更优
+	 - 该方法用于BERT，也能带来提升
 ## motivation
 - 大模型通常效果更好，但是其迁移能力不行
 - 人工构建离散prompt虽然能一定程度上适配下游任务，但是严重依赖于验证集，表现也不稳定，prompt中一个字的变化可能带来任务效果巨大的变化
 - we delve into the problem of finding continuous prompts that can be differentially optimized.
-
 
 - 直接优化连续的 prompt 参数面临两个挑战：
 	- 一是预训练模型原始的词向量已经高度离散，若随机初始化 prompt 向量并进行 SGD 优化，也只会在小范围内优化并陷入局部最小值；
@@ -20,7 +27,7 @@
 - 本质思考
 	- 固定预训练模型参数，引入少量额外参数，用于下游任务的迁移学习
 	- 例如 prefix_tuning, p_tuning, lora 都是类似的
-- 参考苏剑林：<mark style="background: #FFB8EBA6;">https://kexue.fm/archives/8295</mark>
+- [参考苏剑林](https://kexue.fm/archives/8295)
 	- 为什么有效
 	- lm+全连接为什么能解决下游任务
 	- 一点原实验细节：https://github.com/THUDM/P-tuning/issues/5
