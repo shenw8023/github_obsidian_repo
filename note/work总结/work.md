@@ -4,6 +4,11 @@
 	- 冷启动，提示学习
 	- 数据增强
 	- focal loss (bert4torch_project)
+	- sentencepiece 使用
+	- 
+
+
+- macro-f1
 
 
 	- ![[数据问题.png]]

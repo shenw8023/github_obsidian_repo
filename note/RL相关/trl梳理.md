@@ -4,17 +4,18 @@
 - 概念要点：
 	- critic model：
 		- 使用的是Actor_model的value_head输出的是每个token对应的值。最好使用独立的模型，否则公共部分是否要一起更新也不太明确
-		- 表示每个token到结束位置的累积total Reward
+		- 表示每个token到结束位置的value
 	- reward model
 		- 使用的是独立的模型，不做更新。
 		- 输出的是整个句子的total Reward：score
 		- 会被用于参与计算每个token的即时reward：r
+		- 即时reward主要是-kl，但是在最后一个位置是总score
 	- ref_model
 		- 不是off-policy中提到的真实与环境交互的q分布采样模型
 		- 仅仅用于计算KL-penalty，也不做更新
 	- <mark style="background: #FFB8EBA6;">off-policy怎么体现，importance-sampling中的q分布怎么来</mark>
 		- 与环境交互的模型，实际用的是上一个epoch下的actor，会先把相关的量计算好，在多轮的ppo-minibatch训练过程中，重复使用这些量
-		- 所以actor在一个epoch的开始是作为与环境交互reference_model，然后在ppo-minibatch巡礼时又作为要更新的模型。
+		- 所以actor在一个epoch的开始是作为与环境交互reference_model，然后在ppo-minibatch训练时又作为要更新的模型。
 
 	- value和reward是怎么结合的
 		- values是模型输出的，每个位置是向后的累积价值

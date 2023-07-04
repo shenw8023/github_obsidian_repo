@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "28e2dce335edca89",
+        "id": "71421b953243da1e",
         "type": "tabs",
         "children": [
           {
-            "id": "1c3a79aa79060f47",
+            "id": "f0ab584c9fe8ad25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work总结/BN and LN.md",
+                "file": "RL相关/trl梳理.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work总结/BN and LN.md",
+                "file": "RL相关/trl梳理.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work总结/BN and LN.md",
+                "file": "RL相关/trl梳理.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work总结/BN and LN.md"
+                "file": "RL相关/trl梳理.md"
               }
             }
           },
@@ -162,22 +162,27 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1c3a79aa79060f47",
+  "active": "f0ab584c9fe8ad25",
   "lastOpenFiles": [
+    "RL相关/强化学习入门.md",
+    "RL相关/PPO.md",
+    "RL相关/RW model & Critic model.md",
+    "RL相关/trl梳理.md",
+    "work总结/work.md",
+    "prompt相关/prompt tuning.md",
+    "代码/api.md",
+    "未命名.md",
+    "prompt相关/pet.md",
+    "work总结/clu.md",
+    "work总结/BN and LN.md",
     "代码/layer_norm.py",
     "work总结/intv问题.md",
-    "work总结/work.md",
-    "work总结/BN and LN.md",
-    "work总结/clu.md",
     "work总结/打标.md",
     "work总结/报告应用.md",
     "work总结/unicode.md",
     "Pasted image 20230629154144.png",
     "daily_note/2023-06-29.md",
     "daily_note/2023-06-08.md",
-    "RL相关/trl梳理.md",
-    "RL相关/RW model & Critic model.md",
-    "RL相关/强化学习入门.md",
     "代码/lightning_conclude.md",
     "LLM/记录.md",
     "LLM/LLM要点.md",
@@ -187,10 +192,6 @@
     "ZeRO.md",
     "accelerate.md",
     "几个分布式训练框架.md",
-    "LLM/xu.md",
-    "LLM/open project.md",
-    "tokenizer.md",
-    "代码/总结.md",
     "Pasted image 20230627195003.png",
     "Pasted image 20230627194804.png",
     "Pasted image 20230627194620.png",
@@ -208,7 +209,6 @@
     "DeepLearning",
     "主动学习",
     "对比学习",
-    "2bab5793c4ed48a19c02fe8e2fa43db6.pdf",
-    "200532d75d3f44b08696f1f8173a29f6/ed1d324e837942b9b66a76a60dac838c.pdf"
+    "2bab5793c4ed48a19c02fe8e2fa43db6.pdf"
   ]
 }
