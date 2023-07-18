@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "71421b953243da1e",
+        "id": "d13dba161df25082",
         "type": "tabs",
         "children": [
           {
-            "id": "f0ab584c9fe8ad25",
+            "id": "f7a2653ce0a2c5c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RL相关/trl梳理.md",
+                "file": "ZeRO.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RL相关/trl梳理.md",
+                "file": "ZeRO.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RL相关/trl梳理.md",
+                "file": "ZeRO.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RL相关/trl梳理.md"
+                "file": "ZeRO.md"
               }
             }
           },
@@ -162,53 +162,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f0ab584c9fe8ad25",
+  "active": "f7a2653ce0a2c5c2",
   "lastOpenFiles": [
-    "RL相关/强化学习入门.md",
-    "RL相关/PPO.md",
-    "RL相关/RW model & Critic model.md",
-    "RL相关/trl梳理.md",
-    "work总结/work.md",
-    "prompt相关/prompt tuning.md",
-    "代码/api.md",
-    "未命名.md",
-    "prompt相关/pet.md",
-    "work总结/clu.md",
-    "work总结/BN and LN.md",
-    "代码/layer_norm.py",
-    "work总结/intv问题.md",
-    "work总结/打标.md",
-    "work总结/报告应用.md",
-    "work总结/unicode.md",
-    "Pasted image 20230629154144.png",
-    "daily_note/2023-06-29.md",
-    "daily_note/2023-06-08.md",
-    "代码/lightning_conclude.md",
-    "LLM/记录.md",
-    "LLM/LLM要点.md",
-    "LLM/LLaMA.md",
-    "LLM/gpt.md",
-    "paper/self-instruct.md",
-    "ZeRO.md",
+    "tokenizer.md",
+    "tie_weights().md",
+    "TencentPretrain.md",
+    "RedPajama 计划，(完整训练流程全开源).md",
+    "nndl.md",
+    "MOSS.md",
+    "LoRA.md",
+    "LLM应用.md",
+    "huggingface LM train scripts.md",
+    "huggingface Trainer.md",
+    "GPT2LMHeadModel.md",
+    "focal loss.md",
+    "flash attention.md",
+    "DL 环境.md",
+    "DDP.md",
     "accelerate.md",
+    "自回归lm的generate方式.md",
+    "指数加权移动平均.md",
+    "picture/Pasted image 20230626203452.png",
+    "一文搞懂几种LLM的高效微调方式.pdf",
+    "微软 deepspeed Chat 框架测试.md",
+    "未命名.md",
+    "picture/数据问题.png",
+    "模型量化.md",
     "几个分布式训练框架.md",
-    "Pasted image 20230627195003.png",
-    "Pasted image 20230627194804.png",
-    "Pasted image 20230627194620.png",
-    "Pasted image 20230627194505.png",
+    "分布式训练torch.md",
+    "分布式训练理论.md",
+    "会议.md",
+    "work总结/work.md",
+    "biao分享/QuestionDataAnalysis.pdf",
+    "biao分享/AIGC产业报告.pdf",
+    "biao分享/02 马尔科夫决策过程.pdf",
+    "biao分享/01 强化学习概述.pdf",
+    "代码/layer_norm.py",
+    "picture/Pasted image 20230629154144.png",
+    "picture/Pasted image 20230627195003.png",
+    "picture/Pasted image 20230627194804.png",
+    "picture/Pasted image 20230627194620.png",
+    "picture/Pasted image 20230627194505.png",
     "456b8b2f246245bcaf1efb05993ea63d.pdf",
     "824ebf412b414345b8b289af09527429/73984dc136734b6d93fb729e038d9098.pdf",
     "824ebf412b414345b8b289af09527429",
-    "Pasted image 20230626205529.png",
-    "Pasted image 20230626204954.png",
-    "Pasted image 20230626204443.png",
-    "Pasted image 20230626203526.png",
-    "Pasted image 20230626203452.png",
-    "代码/focal_loss.py",
-    "Transformer模型架构梳理",
-    "DeepLearning",
-    "主动学习",
-    "对比学习",
-    "2bab5793c4ed48a19c02fe8e2fa43db6.pdf"
+    "picture/Pasted image 20230626205529.png",
+    "picture/Pasted image 20230626204954.png",
+    "picture/Pasted image 20230626204443.png",
+    "代码/focal_loss.py"
   ]
 }

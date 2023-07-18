@@ -8,7 +8,7 @@
 - **理论架构设计**：<mark style="background: #FFB8EBA6;">we model relations as functions that map subjects to objects</mark>
 	- instead of learning relation classifiers: $f(s, o) \rightarrow r$ 
 	- we learn <mark style="background: #FFB8EBA6;">relation-specific taggers</mark>:  $f_r(s)\rightarrow o$
-	- 对于给定的subject，在指定的relation下，识别出可能的object
+	- <mark style="background: #FFB8EBA6;">对于给定的subject，在指定的relation下，识别出可能的object</mark>
 	- 这样的框架下，triple extraction就是两步工作：先识别句子中所有可能的subjects，然后对每一个subject，使用relation-specific taggers同时识别所有可能的relation和对应的object
 - **模型结构**：CASREL, an end-to-end cascade binary tagging framework
 	- a BERT-based encoder module
